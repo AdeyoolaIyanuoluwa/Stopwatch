@@ -1,0 +1,20 @@
+
+.margin{
+    /* margin-top: 250px; */
+    border: thick solid rgb(7, 7, 7);
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 13px 4px rgb(180, 164, 164);
+}
+input{
+    /* padding-top: 350px; */
+    height: 110px;
+    width: 110px;
+    border-radius: 100%;
+    background: none;
+    box-shadow: 2px 2px 13px 4px rgb(19, 17, 17);
+}
+.watch{
+    margin-top: 100px;
+}
