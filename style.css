@@ -1,17 +1,17 @@
 body{
-    background-image: url('watch.jpg');
+    background-image: url('swatch.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .margin{
     /* margin-top: 250px; */
     /* border: thick solid rgb(7, 7, 7); */
-    background-color: rgb(167, 155, 155);
+    background-color: #87a5d7;
     border: thin solid rgb(224, 213, 213);
     height: 600px;
     width: 30%;
     /* border-radius: 100%; */
-    box-shadow: 2px 2px 13px 4px rgb(180, 164, 164);
+    /* box-shadow: 2px 2px 13px 4px rgb(180, 164, 164); */
 }
 input{
     /* padding-top: 350px; */
