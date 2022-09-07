@@ -2,25 +2,34 @@ const startTimer = () => {
     let myMillieSec = millisec.value;
     myMillieSec++;
     millisec.value = myMillieSec;
-    setTimeout(startTimer, 9);
+   myTimeout = setTimeout(startTimer, 9);
     if(millisec.value == 100){
-        millisec.value = 0;
+        millisec.value = 00;
         seconds.value++;
     }
     if(seconds.value== 60){
-        seconds.value = 0;
+        seconds.value = 00;
         minutes.value++;
     }
     if(minutes.value == 60){
-        minutes.value = 0;
+        minutes.value = 00;
         hours.value++;
     }
 }
         
 function stop(){
-            location.reload()
+            // location.reload()
+            clearInterval(myTimeout)
+            millisec.value = "00"
+            seconds.value = "00"
+            minutes.value = "00"
+            hours.value = "00"
+
         }
-        
+const pause = () =>{
+    myTimeout = clearInterval(myTimeout)
+} 
+    
         
         
         
